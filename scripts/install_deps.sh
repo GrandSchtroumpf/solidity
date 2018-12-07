@@ -45,6 +45,7 @@
 #------------------------------------------------------------------------------
 
 set -e
+set -x
 
 # Check for 'uname' and abort if it is not available.
 uname -v > /dev/null 2>&1 || { echo >&2 "ERROR - solidity requires 'uname' to identify the platform."; exit 1; }

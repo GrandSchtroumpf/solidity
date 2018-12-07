@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x
+
 if [ -z "$1" ]; then
     BUILD_TYPE=Release
 else
